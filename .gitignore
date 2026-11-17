@@ -1,0 +1,10 @@
+deps/
+results/
+results.tar.gz
+faco
+focused_sharing
+experiments
+*.exe
+*.o
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,184 @@
+{
+  "authenticated_colab_execution": "not performed",
+  "embedded_cpp_modules": 5,
+  "embedded_sources_match_tested_files": true,
+  "historical_faco_routes_and_quality_traces_preserved": true,
+  "historical_ils_fixed_round_states_preserved": true,
+  "linux_setup_download_passed": true,
+  "lkh_removed": true,
+  "local_runs": [
+    {
+      "checks": {
+        "fixed_round_thread_states_match": true,
+        "independent_validator_checks": true,
+        "rounds": 1000,
+        "solver_self_test": true
+      },
+      "directory": "benchmarks/check_1794847073005717",
+      "settings": {
+        "ants": 128,
+        "check_rounds": 1000,
+        "cities": 2392,
+        "faco_iterations": 300,
+        "faco_revision": "05b7c1b8d52b27d121b6138222f986fcbf196863",
+        "ils_seconds": 2.0,
+        "instance": "deps/faco/instances/pr2392.tsp",
+        "seeds": [
+          11,
+          23
+        ],
+        "smoke_test": true,
+        "suite": "check",
+        "threads": 2
+      }
+    },
+    {
+      "checks": {
+        "fixed_round_thread_states_match": true,
+        "independent_validator_checks": true,
+        "rounds": 1000,
+        "solver_self_test": true
+      },
+      "directory": "benchmarks/check_1794847331674818",
+      "settings": {
+        "ants": 128,
+        "check_rounds": 1000,
+        "cities": 2392,
+        "faco_iterations": 300,
+        "faco_revision": "05b7c1b8d52b27d121b6138222f986fcbf196863",
+        "ils_seconds": 2.0,
+        "instance": "deps/faco/instances/pr2392.tsp",
+        "seeds": [
+          11,
+          23
+        ],
+        "smoke_test": true,
+        "suite": "check",
+        "threads": 2
+      }
+    },
+    {
+      "checks": {
+        "paired_routes_and_quality_traces_match": true,
+        "paired_seeds": [
+          11,
+          23
+        ]
+      },
+      "directory": "benchmarks/faco_1794847057395428",
+      "paired_speedups.csv": "comparison,median_paired_solver_speedup,median_paired_process_speedup\nBaseline vs A+B,1.0144396209,0.982288917462\n",
+      "settings": {
+        "ants": 128,
+        "check_rounds": 1000,
+        "cities": 2392,
+        "faco_iterations": 300,
+        "faco_revision": "05b7c1b8d52b27d121b6138222f986fcbf196863",
+        "ils_seconds": 2.0,
+        "instance": "deps/faco/instances/pr2392.tsp",
+        "seeds": [
+          11,
+          23
+        ],
+        "smoke_test": true,
+        "suite": "faco",
+        "threads": 2
+      },
+      "summary.csv": "method,median_solver_seconds,median_process_seconds,mean_cost\nFACO baseline,0.94655555,1.1068928,381290\nFACO A+B,0.9328375,1.12592905,381290\n"
+    },
+    {
+      "checks": {
+        "paired_routes_and_quality_traces_match": true,
+        "paired_seeds": [
+          11,
+          23
+        ]
+      },
+      "directory": "benchmarks/faco_1794847280193433",
+      "paired_speedups.csv": "comparison,median_paired_solver_speedup,median_paired_process_speedup\nBaseline vs A+B,1.03809747836,1.02801941419\n",
+      "settings": {
+        "ants": 128,
+        "check_rounds": 1000,
+        "cities": 2392,
+        "faco_iterations": 300,
+        "faco_revision": "05b7c1b8d52b27d121b6138222f986fcbf196863",
+        "ils_seconds": 2.0,
+        "instance": "deps/faco/instances/pr2392.tsp",
+        "seeds": [
+          11,
+          23
+        ],
+        "smoke_test": true,
+        "suite": "faco",
+        "threads": 2
+      },
+      "summary.csv": "method,median_solver_seconds,median_process_seconds,mean_cost\nFACO baseline,1.071056154,1.1833485095,381290\nFACO A+B,1.032359667,1.152278983,381290\n"
+    },
+    {
+      "directory": "benchmarks/ils_1794847104461869",
+      "paired_comparison.csv": "seed,cost_improvement_percent,normal_over_enhanced_process_time\n11,1.09410039341,0.995567352401\n23,1.00540336411,0.999787910343\n",
+      "settings": {
+        "ants": 128,
+        "check_rounds": 1000,
+        "cities": 2392,
+        "faco_iterations": 300,
+        "faco_revision": "05b7c1b8d52b27d121b6138222f986fcbf196863",
+        "ils_seconds": 2.0,
+        "instance": "deps/faco/instances/pr2392.tsp",
+        "seeds": [
+          11,
+          23
+        ],
+        "smoke_test": true,
+        "suite": "ils",
+        "threads": 2
+      },
+      "summary.csv": "method,mean_cost,best_cost,median_solver_seconds,median_process_seconds\nNormal ILS,386615,386611,2,2.05004735\nILS + focused repair + selective sharing,382556.5,382389,2,2.05483245\n"
+    },
+    {
+      "directory": "benchmarks/ils_1794847371498383",
+      "paired_comparison.csv": "seed,cost_improvement_percent,normal_over_enhanced_process_time\n11,1.09435904599,0.999545348302\n23,1.02378567787,1.00092972046\n",
+      "settings": {
+        "ants": 128,
+        "check_rounds": 1000,
+        "cities": 2392,
+        "faco_iterations": 300,
+        "faco_revision": "05b7c1b8d52b27d121b6138222f986fcbf196863",
+        "ils_seconds": 2.0,
+        "instance": "deps/faco/instances/pr2392.tsp",
+        "seeds": [
+          11,
+          23
+        ],
+        "smoke_test": true,
+        "suite": "ils",
+        "threads": 2
+      },
+      "summary.csv": "method,mean_cost,best_cost,median_solver_seconds,median_process_seconds\nNormal ILS,386514,386409,2.0002589585,2.013333624\nILS + focused repair + selective sharing,382420.5,382388,2.000035568,2.012856741\n"
+    },
+    {
+      "checks": {
+        "independent_parser_route_trace_checks": true,
+        "median": true,
+        "subprocess_arguments": true,
+        "subprocess_failure_timeout_missing": true
+      },
+      "directory": "benchmarks/support_checks_1794847179914115"
+    },
+    {
+      "checks": {
+        "independent_parser_route_trace_checks": true,
+        "median": true,
+        "subprocess_arguments": true,
+        "subprocess_failure_timeout_missing": true
+      },
+      "directory": "benchmarks/support_checks_1794847437694227"
+    }
+  ],
+  "notebook_cells": 25,
+  "only_faco_baseline_and_combined": true,
+  "only_normal_ils_and_repair_sharing": true,
+  "python_application_cells": 0,
+  "shell_cells": 8,
+  "timing_scope": "Local smoke tests, not research benchmark claims",
+  "windows_and_linux_builds_passed": true
+}

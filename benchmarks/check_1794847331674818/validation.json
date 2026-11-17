@@ -1,0 +1,6 @@
+{
+  "fixed_round_thread_states_match": true,
+  "independent_validator_checks": true,
+  "rounds": 1000,
+  "solver_self_test": true
+}

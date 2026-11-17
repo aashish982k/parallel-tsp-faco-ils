@@ -1,0 +1,6 @@
+{
+  "independent_parser_route_trace_checks": true,
+  "median": true,
+  "subprocess_arguments": true,
+  "subprocess_failure_timeout_missing": true
+}

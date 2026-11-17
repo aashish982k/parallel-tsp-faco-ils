@@ -1,0 +1,3 @@
+method,mean_cost,best_cost,median_solver_seconds,median_process_seconds
+Normal ILS,386514,386409,2.0002589585,2.013333624
+ILS + focused repair + selective sharing,382420.5,382388,2.000035568,2.012856741

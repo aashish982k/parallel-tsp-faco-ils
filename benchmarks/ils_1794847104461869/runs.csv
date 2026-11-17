@@ -1,0 +1,5 @@
+method,seed,cost,budget_seconds,solver_seconds,process_seconds,jobs,migrations
+cooperate,11,382389,2,2,2.061003,98024,245
+ils,11,386619,2,2,2.0518673,7774,0
+cooperate,23,382724,2,2,2.0486619,109916,259
+ils,23,386611,2,2,2.0482274,7698,0

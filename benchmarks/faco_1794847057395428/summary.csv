@@ -1,0 +1,3 @@
+method,median_solver_seconds,median_process_seconds,mean_cost
+FACO baseline,0.94655555,1.1068928,381290
+FACO A+B,0.9328375,1.12592905,381290

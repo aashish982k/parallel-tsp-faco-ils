@@ -1,0 +1,16 @@
+{
+  "ants": 128,
+  "check_rounds": 1000,
+  "cities": 2392,
+  "faco_iterations": 300,
+  "faco_revision": "05b7c1b8d52b27d121b6138222f986fcbf196863",
+  "ils_seconds": 2.0,
+  "instance": "deps/faco/instances/pr2392.tsp",
+  "seeds": [
+    11,
+    23
+  ],
+  "smoke_test": true,
+  "suite": "faco",
+  "threads": 2
+}

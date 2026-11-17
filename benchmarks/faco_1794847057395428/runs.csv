@@ -1,0 +1,5 @@
+variant,seed,cost,solver_seconds,process_seconds,preprocessing_seconds
+combined,11,381385,0.9374035,1.1598999,0.1006894
+baseline,11,381385,1.0019011,1.170263,0.0992039
+combined,23,381195,0.9282715,1.0919582,0.096888
+baseline,23,381195,0.89121,1.0435226,0.0941808
